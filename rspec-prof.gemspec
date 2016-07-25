@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.summary = "Integrates ruby-prof with RSpec, allowing you to easily profile your RSpec examples."
   s.test_files = `git ls-files -- features/`.split("\n")
 
-  s.add_runtime_dependency 'rspec', '~> 3.0'
+  s.add_runtime_dependency 'rspec', '> 2'
   s.add_runtime_dependency 'ruby-prof'
   s.add_development_dependency 'cucumber'
   s.add_development_dependency 'aruba'
